@@ -8,6 +8,8 @@ Random rnd = new Random();
 
 double[,] array = new double[n, m];
 
+Console.WriteLine($"Матрица {n}x{m}");
+
 for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < m; j++)
