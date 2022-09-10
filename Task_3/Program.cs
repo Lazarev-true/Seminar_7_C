@@ -18,6 +18,7 @@ for (int i = 0; i < n; i++)
     Console.WriteLine();
 }
 Console.WriteLine();
+Console.Write("Среднее арифметическое каждого столбца: ");
 
 for (int i = 0; i < m; i++)
 {
