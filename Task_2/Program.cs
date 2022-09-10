@@ -26,7 +26,7 @@ int k = Convert.ToInt32(num[0]),
 
 if(k >= n || l >= m)
 {
-    Console.Write("Такого элемента нет");
+    Console.Write($"({k}, {l}) -> Такого элемента нет");
 }
 else
-Console.Write(array[k, l]);
+Console.Write($"({k}, {l}) -> {array[k, l]}");
